@@ -50,7 +50,7 @@ package GFG_POTD;
  * - O(1) extra space.
  */
 
-class Solution {
+class Solution_One {
     public boolean isSubSeq(String s1, String s2) {
         int i = 0, j = 0;
 
@@ -67,7 +67,7 @@ class Solution {
 
 public class Problem_One {
     public static void main(String[] args) {
-        Solution solution = new Solution();
+        Solution_One solution = new Solution_One();
 
         String s1 = "gksrek";
         String s2 = "geeksforgeeks";
